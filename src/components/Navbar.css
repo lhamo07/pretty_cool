@@ -1,0 +1,28 @@
+
+nav{
+  display: flex;
+  align-items: center;  
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    position:sticky;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list li{
+    list-style: none;
+padding: 0 20px;}
+.nav-list li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.nav-list li a:hover
+{
+    color:#ff5d8f;
+}
